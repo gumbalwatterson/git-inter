@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dev",
+    "commit": {
+      "sha": "2c2a24d3dfc38d9d924be75d1dc5add104f539bf",
+      "url": "https://api.github.com/repos/testUser/test"
+    },
+    "protected": false
+  },
+  {
+    "name": "add-log",
+    "commit": {
+      "sha": "2a970a010bf3b91b99ba8472bc2e07a8bdab1ee7",
+      "url": "https://api.github.com/repos/testUser/test-admin"
+    },
+    "protected": false
+  },
+  {
+    "name": "master",
+    "commit": {
+      "sha": "c1b06db21f59af07e157ffd9b4ab05e56760e23d",
+      "url": "https://api.github.com/repos/testUser/admin-dashboard-test"
+    },
+    "protected": false
+  }
+]
