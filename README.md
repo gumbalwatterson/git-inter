@@ -17,8 +17,7 @@ http://localhost:8080/api/nonfork/repos/SalithaUCSC
 ````
 Snippet response
 ````
-{
-    "repositories": [
+ [
         {
             "owner": "SalithaUCSC",
             "repositoryName": "actuator-dashboard",
@@ -31,12 +30,7 @@ Snippet response
                     "branchName": "main",
                     "sha": "779e60003dae2d576ffd04d1f09c2f6dc36c3f9f"
                 }
-            ],
-            "_links": {
-                "self": {
-                    "href": "http://localhost:8080/api/repos/user/SalithaUCSC/actuator-dashboard?page=1"
-                }
-            }
+            ]
         },
         {
             "owner": "SalithaUCSC",
@@ -54,23 +48,9 @@ Snippet response
                     "branchName": "main",
                     "sha": "e51bf60e2c52cc485251fcaf59a13048eb798d89"
                 }
-            ],
-            "_links": {
-                "self": {
-                    "href": "http://localhost:8080/api/repos/user/SalithaUCSC/admin-dashboard?page=1"
-                }
-            }
+            ]
         }
-    ],
-    "_links": {
-        "self": {
-            "href": "http://localhost:8080/api/repos/nonfork/user/SalithaUCSC?page=1"
-        },
-        "next_page": {
-            "href": "http://localhost:8080/api/repos/nonfork/user/SalithaUCSC?page=2"
-        }
-    }
-}
+]
 ````
 
 
